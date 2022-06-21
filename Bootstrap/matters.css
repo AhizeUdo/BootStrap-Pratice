@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0%;
+}
+
+.area {
+    background-image: url(/images/two.jpeg);
+    height: 500px;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.areaone {
+    background-image: url(/images/four.jpeg);
+    height: 250px;
+    border-radius: 12px;
+    width: 500px;
+    margin-left: 25px;
+}
+
+.areatwo {
+    background-image: url(/images/one.jpeg);
+    height: 230px;
+    border-radius: 12px;
+    width: 245px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.areathree {
+    background-image: url(/images/one.jpeg);
+    height: 230px;
+    border-radius: 12px;
+    width: 240px;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+
+.area:hover {
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.area h2 {
+    font-weight: 700;
+    padding: 10px;
+    padding-top: 350px;
+    left: 5px;
+    color: white;
+}
+
+.area h2:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.area p {
+    font-weight: 700;
+    padding: 10px;
+    left: 5px;
+    color: white;
+}
+
+.colarea {
+    background-image: url(/images/one.jpeg);
+    height: 250px;
+    border-radius: 15px;
+}
+.colareaone {
+    background-image: url(/images/three.jpeg);
+    height: 200px;
+    border-radius: 15px;
+    width: 100%;
+}
+.colareatwo {
+    background-image: url(/images/four.jpeg);
+    height: 200px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.colareafive {
+    background-image: url(/images/four.jpeg);
+    border-radius: 15px;
+    height: 300px;
+}
+
+.colareasix {
+    background-image: url(/images/six.jpeg);
+    border-radius: 15px;
+    height: 300px;
+}
+
+.morearea {
+    text-align: center;
+    background: rgb(147, 150, 156);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.mediaarea {
+    background: rgb(147, 150, 156);
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.topicarea {
+    background-image: url(/images/one.jpeg);
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.catearea  {
+    text-align: centre;
+    width: 100%;
+
+}
+
+.catearea {
+    text-align: center;
+}
+
+.topicarea p {
+    text-align: center;
+}
+
+.adarea {
+    background-image: url(/images/advone.jpeg);
+    height: 470px;
+    width: 300px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.rectext {
+    font-size: 13px;
+    margin: 7px;
+    padding: 7px;
+
+}
+
+.recpicarea {
+    background-image: url(/images/nine.jpeg);
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 13px;
+}
+
+.spnews {
+    align-items: right;
+    text-align: right;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.spnewsimg {
+    background-image: url(/images/sev.jpeg);
+    padding: 12px;
+    height: 120px;
+    border-radius: 12px;
+
+}
+
+.finalsec {
+    padding: 15px;
+    margin: 15px;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 90%;
+}
+.finalsecone {
+    background: rgb(31, 29, 37);
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 1100px;
+}
+
+.fnsechead {
+    color: white;
+    font-weight: 500;
+}
+
+.seccolone h5 {
+    color: white;
+}
+
+.seccolone p {
+    color: white;
+}
+
+.seccoltwo  h5 {
+    color: white;
+}
+
+.seccoltwo p {
+    color: white;
+}
+
+.seccoltwo p:hover {
+    color: blue;
+}
+
+.imgone1cont {
+    border-radius: 15px;
+    height: 250px;
+    width: 230px;
+}
+
+.imgone1 {
+    height: 250px;
+    border-radius: 12px;
+    width: 230px;
+    margin-left: 0px;
+    margin-top: 2px;
+    padding: 25px;
+}
+
+.imgone2 {
+    height: 250px;
+    border-radius: 12px;
+    width: 230px;
+    margin-left: 1px;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.slideinfo {
+    background: rgb(179, 179, 204);
+    padding: 1px;
+    width: 995px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+.slideinfo p {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 300px;
+}
+.headcontimgcont {
+    border-radius: 12px;
+    height: 530px;
+    width: 550px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.headcontimg {
+    height: 530px;
+    width: 550px;
+    border-radius: 15px;
+    background-image: url(/images/imagedivone.jpg);
+    background-position: left center;
+    align-items: left;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.headcontimg:hover {
+    transform: scale(1.2);
+}
+
+.headcontimg p h1 {
+    text-align: left;
+    transform: none;
+}
+
+.traildivtwocont {
+    border-radius: 12px;
+    width: 490px;
+    height: 230px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 0px;
+    padding-top: 15px;
+}
+
+.trialldivtwo {
+    background-image: url(/images/divtwo.jpeg);
+    height: 230px;
+    border-radius: 12px;
+    width: 490px;
+    background-position: center;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.trialldivtwo:hover {
+    transform: scale(1.2);
+}
+
+.belowcont {
+    width: 78%;
+}
+

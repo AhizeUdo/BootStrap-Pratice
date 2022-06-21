@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.majorbox {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 350px;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.imagebox {
+    width: 100%;
+    height: 350px;
+    background-image: url(/images/About/two.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    transition: 0.5s all ease-in-out;
+    position: absolute;
+}
+
+.imagebox:hover {
+    transform: scale(1.1);
+}
+
+.overlaybox {
+    background: black;
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.45;
+    display: flex;
+}
+
+.mjboxcontent {
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    margin-left: 39%;
+}
+
+.mjboxcontent h4 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; 
+   
+}
+
+.mjboxcontent ul {
+    text-align: center;
+   
+}
+  
+
+.mjboxcontent ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.mjboxcontent  ul li a {
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.head1 h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.contentmain {
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.content1 {
+    width: 100%;
+}
+
+.content1 p {
+    color: rgb(73, 72, 72);
+    font-size: 19px;
+    text-align: left;
+    font-family:monospace;
+    padding: 0px;
+    font-weight: 100;
+}
+
+.content2 {
+    width: 100%;
+}
+
+.content2 p {
+    color: rgb(73, 72, 72);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: monospace;
+    padding: 10px;
+}
+
+
+.imgone {
+    height: 250px;
+    width: 200px;
+
+}
+
+.imgone img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    height: 230px;
+}
+
+
+
+
